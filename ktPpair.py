@@ -1,5 +1,6 @@
 def kSmallestPairs(nums1, nums2, k):
     """
+    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
     :type nums1: List[int]
     :type nums2: List[int]
     :type k: int

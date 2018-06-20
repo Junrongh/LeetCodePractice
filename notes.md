@@ -13,4 +13,15 @@ Find K Pairs with Smallest Sums
 
 -	Important:
 
-heap.heappush() 时注意重复事项即矩阵中
+heapq.heappush() 时注意重复事项即矩阵中
+
+	>>> matrix = [
+   					[ 1,  5,  9],
+   					[10, 11, 13],
+   					[12, 13, 15]
+				 ]
+				 
+	>>> list(heapq.merge(matrix))
+	[[1, 5, 9], [10, 11, 13], [12, 13, 15]]
+	>>> list(heapq.merge(*matrix))
+	[1, 5, 9, 10, 11, 12, 13, 13, 15]
